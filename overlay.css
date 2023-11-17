@@ -1,0 +1,52 @@
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+#Player-name {
+    width: 12rem;
+    height: 1.5rem;
+    margin: 10px 0;
+}
+
+
+label {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.aside {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    right: 10rem;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 1.3rem auto;
+    padding: 2rem;
+    display: none;
+
+
+}
+
+@media (max-width: 48rem) {
+    .aside {
+        position: fixed;
+        top: 10rem;
+        left: 2.3rem;
+        right: 2.3rem;
+        width: 14rem;
+    }
+}
+
+button {
+    padding: 6px 10px;
+    border-radius: 0;
+    border: none;
+    border
+}

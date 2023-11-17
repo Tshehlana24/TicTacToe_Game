@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Rubik:wght@500&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="overlay.css">
+    <script src="scripts/overlay.js"></script>
+    <script src="scripts/app.js" defer></script>
+
+</head>
+<body>
+    <div id="header">
+        <div id="background">
+
+        </div>
+        <h1>Tic Tac Toe</h1>
+    </div>
+
+    <div class="aside">
+        <form >
+            <label for="Player-name">Enter Your Name</label>
+            <input type="text" name="Playername" id="Player-name" required>
+            <p id="error"></p>
+
+            <div class="submit">
+                <button type="reset" id="hide">Cancel</button>
+                <button type="submit" id="sbmt">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div id="player-cards">
+
+        <div class="card">
+            <h4>Player 1</h4>
+            <h2 id="Player1ID">Name</h2>
+            <h3><strong>X</strong></h3>
+            <button id="player" data-Playerid="1">Edit Name</button>
+        </div>
+
+        <div class="card">
+            <h4>Player 2</h4>
+            <h2 id="Player2ID">Name</h2>
+            <h3><strong>0</strong></h3>
+            <button id="player2" data-Playerid="2">Edit Name</button>
+
+        </div>
+    </div>
+
+    <div id="start">
+        <button id="Start">Start New Game</button>
+    </div>
+   
+        
+      
+
+    <div class="game-board">
+
+     <div class="Winner">
+        <p >HEY <span id="Winnerannounce"> </span> YOU HAVE WON!!!</p>
+        
+    </div> 
+    <p class="Switch">It's you turn <span id = "PlayerActive" > <strong> </strong></span>!</p>
+
+        <ol  class="board-cards">
+            <li data-col="1" data-row="1"></li>
+            <li data-col="2" data-row="1"></li>
+            <li data-col="3" data-row="1"></li>
+
+            <li data-col="1" data-row="2"></li>
+            <li data-col="2" data-row="2"></li>
+            <li data-col="3" data-row="2"></li>
+            
+            <li data-col="1" data-row="3"></li>
+            <li data-col="2" data-row="3"></li>
+            <li data-col="3" data-row="3"></li>
+        </ol>
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+#header {
+    background-color: rgb(84, 24, 141);
+    background-size: contain;
+    margin: -8px;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    
+    
+
+}
+h1 {
+    margin: auto 0;
+    text-align: center;
+    align-items: center;
+    color: rgba(85, 165, 240, 0.3);
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 5rem;
+
+}
+
+#player-cards {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.card {
+    color: #f7d8ff;
+    text-align: center;
+    background-color: rgb(190, 121, 255);
+    width: 12rem;
+    margin: 10px 10px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px;
+    padding-bottom: 10px;
+}
+
+
+#start {
+    display: flex;
+}
+
+#Start {
+    background-color: rgb(84, 24, 141);
+    border: none;
+    padding: 6px 16px;
+    border-radius: 5px;
+    color: #f7d8ff;
+    margin: 0 auto;
+}
+
+.Winner {
+    background-color: rgb(70, 33, 105);
+    color: #fefaff;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 45%;
+    justify-content: center;
+    margin: 6px auto ;
+    display: none;
+}
+
+.board-cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 4rem);
+    grid-template-rows: repeat(3, 4rem);
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(210, 225, 225);
+    color: aliceblue;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    
+    
+}
+
+li:hover {
+    background-color:rgb(70, 33, 105);
+    cursor: pointer;
+}
+
+#background {
+    position: fixed ;
+   top: 0;
+   left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+
+#error {
+    margin: 2px;
+    padding: 0px;
+}
+
+.Player-name{
+    background-color: rgba(255, 0, 0, 0.674);
+    margin-bottom: 2px;
+    padding-bottom: 0;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.game-board {
+    display: none;
+}
+
+.Switch {
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+li.disable {
+    background-color:rgb(70, 33, 105);
+}
